@@ -1,0 +1,17 @@
+/* Custom styles to reconcile Bootstrap and Wordpress*/
+
+//Admin area corrections
+body.wp-admin{
+	padding-top: 0;
+	h3{
+		font-size: 1.17em;
+	}
+}
+
+
+body.logged-in{
+	padding-top: 98px; //+28px for WP admin bar
+	.navbar-fixed-top{
+		top: 28px; //+28px for WP admin bar
+	}
+}

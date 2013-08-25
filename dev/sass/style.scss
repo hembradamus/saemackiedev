@@ -1,0 +1,16 @@
+/*
+Theme Name: Twitter Bootstrap for Wordpress
+Theme URI: http://randyhembrador.com
+Description: Wordpress theme built off of Twitter Bootstrap 3.0.0 (August 2013). Bootstrap sample pages included as WP page templates, and Bootstrap elements built as template tags.
+Author: Randy Hembrador
+Author URI: http://randyhembrador.com
+Version: 1.0
+Tags: bootstrap, twitter-bootstrap, responsive, framework
+
+General Comments: blah blah blah
+*/
+
+@import '_bootstrap.min';
+@import '_bootstrapTheme.min';
+@import '_navbar-fixed-top';
+@import '_bootstrapWP';
