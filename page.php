@@ -14,8 +14,6 @@
 get_header(); ?>
 
 
-      <div class="container">
-
       <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-xs-12 col-sm-9">
           <p class="pull-right visible-xs">
@@ -23,15 +21,11 @@ get_header(); ?>
           </p>
           <div class="row">
 			<?php 
-				query_posts();
 				while ( have_posts() ) : the_post();
 			?>
 	            <div class="col-12 col-sm-12 col-lg-12">
-	              <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-	              	<?php the_title_attribute(); ?>
-	              </a></h2>
-	              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-	              <p><a class="btn btn-default" href="<?php the_permalink(); ?>">View details »</a></p>
+	              <h2><?php the_title_attribute(); ?></h2>
+	              <?php the_content(); ?>
 	            </div><!--/span-->
 			<?php endwhile; ?>
           </div><!--/row-->

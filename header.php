@@ -24,28 +24,26 @@
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-        </div>
-        <div class="navbar-collapse collapse">
-	        <?php wp_nav_menu( array(
-            'container'     => '',
-	        	'menu_class' 		=> 'nav navbar-nav',
-				    'items_wrap'		=> '<ul class="%2$s">%3$s</ul>'
-	        ) ); ?>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://getbootstrap.com/examples/navbar/">Default</a></li>
-            <li><a href="http://getbootstrap.com/examples/navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./Fixed Top Navbar Example for Bootstrap_files/Fixed Top Navbar Example for Bootstrap.html">Fixed top</a></li>
-          </ul>
-  	    </div><!--/.nav-collapse -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
       </div>
+      <div class="navbar-collapse collapse">
+        <?php wp_nav_menu( array(
+          'container'     => '',
+        	'menu_class' 		=> 'nav navbar-nav',
+			    'items_wrap'		=> '<ul class="%2$s">%3$s</ul>'
+        ) ); ?>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://getbootstrap.com/examples/navbar/">Default</a></li>
+          <li><a href="http://getbootstrap.com/examples/navbar-static-top/">Static top</a></li>
+          <li class="active"><a href="./Fixed Top Navbar Example for Bootstrap_files/Fixed Top Navbar Example for Bootstrap.html">Fixed top</a></li>
+        </ul>
+	    </div><!--/.nav-collapse -->
     </div>
 
     <div class="container">
