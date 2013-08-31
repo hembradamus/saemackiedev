@@ -15,7 +15,9 @@ get_header(); ?>
 
 
       <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-xs-12 col-sm-9">
+        <div class="col-xs-12 col-sm-4">
+        </div><!--/span-->
+        <div class="col-xs-12 col-sm-4">
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
@@ -30,24 +32,7 @@ get_header(); ?>
 			<?php endwhile; ?>
           </div><!--/row-->
         </div><!--/span-->
-
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="well sidebar-nav">
-          	<?php get_sidebar(); ?>
-            <ul class="nav">
-              <li>Sidebar</li>
-              <li class="active"><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-              <li><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-              <li><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-              <li>Sidebar</li>
-              <li><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-              <li><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-              <li><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-              <li>Sidebar</li>
-              <li><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-              <li><a href="http://getbootstrap.com/examples/offcanvas/#">Link</a></li>
-            </ul>
-          </div><!--/.well -->
+        <div class="col-xs-12 col-sm-4">
         </div><!--/span-->
       </div><!--/row-->
 
